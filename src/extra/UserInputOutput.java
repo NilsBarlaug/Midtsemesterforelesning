@@ -25,6 +25,7 @@ public class UserInputOutput {
 				}
 			}
 		}
+		scanner.close();
 		Collections.sort(numbers);
 		System.out.println("Sorted: " + numbers);
 	}
